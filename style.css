@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.top-bar{
+    background-color: white;
+    position: fixed;
+    height: 13vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    height: 13vh;
+    align-items: center;
+}
+.title h3{
+    font-size: 2.5rem;
+    margin-left: 7.3vw;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    height: 13vh;
+    margin-right: 7.3vw;
+    align-items: center;
+}
+li{
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}
+li:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+.blue-box{
+    width: 100%;
+    height: 83.25vh;
+    background-image: url("assets/laranjaazulrecorte.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    font-size: 4.9rem;
+    margin-left: 7.3vw;
+    color: white;
+}
+h2{
+    font-size: 2.19rem;
+    font-weight: 300;
+    margin-top: 6.4vh;
+    margin-left: 7.3vw;
+    color: white;
+}
+h2:hover{
+    cursor: pointer;
+}
+.container-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.7vh;
+    margin-left: 6.9vw;
+    margin-top: 7.8vh;
+    margin-bottom: 9.18vh;
+}
+.container-img img{
+    height: 42.48vh;
+    width: 20.73vw;
+}
+.container-bottom{
+    background-color: whitesmoke;
+    display: flex;
+    height: 13.5vh;
+    align-items: center;
+}
+.social{
+    margin-left: 6.2vw;
+    width: 18.4vw;
+    display: flex;
+    justify-content: space-around;
+}
+.social img:hover{
+    cursor: pointer;
+}
+footer h5{
+    font-size: 1.25rem;
+    margin-left: 6.2vw;
+}
+.disclaimer{
+    width: 28.75vw;
+    margin-left: 1.25vw;
+    
+}
+.disclaimer p{
+    font-size: 0.9rem;
+}
