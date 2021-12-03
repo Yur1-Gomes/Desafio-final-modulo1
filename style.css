@@ -14,6 +14,12 @@
     display: flex;
     justify-content: space-between;
 }
+ul{
+    width: 38rem;
+}
+li{
+    width: 11rem;
+}
 .title{
     display: flex;
     height: 13vh;
