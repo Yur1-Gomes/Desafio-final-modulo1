@@ -125,7 +125,7 @@ button{
         width: 14rem;
     }
 }
-@media(max-width:375px){
+@media(max-width:411px){
     .menu{
         display: block;
         width: 7rem;
