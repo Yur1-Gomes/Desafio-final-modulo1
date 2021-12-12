@@ -101,6 +101,11 @@ h2:hover{
 .social img:hover{
     cursor: pointer;
 }
+.bottom-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 footer h5{
     font-size: 1.25rem;
     margin-left: 6.2vw;
@@ -116,7 +121,7 @@ footer h5{
 button{
     display: none;
 }
-@media(max-width:1366px){
+@media(max-width:1440px){
     .blue-box{
         background-position: 64%;
     }
@@ -124,13 +129,39 @@ button{
         font-size: 1.6rem;
         width: 14rem;
     }
+    .container-img{
+        margin-left: 3.5rem;
+    }
+    .container-img img{
+        height: 18.75rem;
+        width: 18.75rem;
+    }
+    .social{
+        margin-left: 4.4rem;
+    }
+    .social img{
+        margin-left: 1rem;
+    }
 }
-@media(max-width:411px){
+@media(max-width:1024px){
+    .container-bottom{
+        height:5rem;
+        }
+    .social{
+        margin-left: 3.6rem;
+    }
+    .social img{
+        height: 1.3rem;
+    }
+    .disclaimer p{
+        font-size: 0.8rem;
+    }
+}
+@media(max-width:823px){
     .menu{
         display: block;
         width: 7rem;
         height: 1.69rem;
-        margin-top: 0%;
         background-color: black;
     }
     .menu img{
@@ -156,38 +187,37 @@ button{
         background-position: 84%;
     }
     .blue-box h1{
-        font-size: 3.12rem;
+        font-size: 2.8rem;
+        margin-left: 2.4rem;
     }
     .blue-box h2{
         font-size: 1.12rem;
         width: 20rem;
         margin-bottom: 2rem;
+        margin-left: 2.4rem;
     }
     .container-img{
-        flex-direction: column;
-        width: 18.75rem;
+        justify-content: center;
+        margin-left: auto;
+        
     }
     .container-img img{
         height: 18.75rem;
         width: 18.75rem;
     }
     .container-bottom{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        background-color: white;
-        width: 89%;
+        height: 4rem;
     }
     .social{
         width: 18.88rem;
         height: 2.56rem;
-        background-color: #7FDBD4;
     }
     .social img{
         height: 1.4rem;
     }
     footer h5{
         font-size: 0.6rem;
+        margin-left: 1.4rem;
     }
     .disclaimer{
         display: flex;
@@ -197,14 +227,68 @@ button{
         width: 12.2rem;
         margin-left: 1.1rem;
     }
+}
+@media (max-width:411px){
+    .blue-box h1{
+        font-size: 3.12rem;
+    }
+    .blue-box h2{
+        width: 20rem;
+    }
+    .container-img{
+        gap: 2rem;
+        margin: auto;
+        margin-bottom: 2rem;
+        margin-top: 4.12rem;
+        width: 18.75rem;
+    }
+    .container-bottom{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        background-color: white;
+        width: 18.75rem;
+        height: 8.5rem;
+        margin: auto;
+        margin-bottom: 0.8rem;
+    }
+    .social{
+        height: 2.56rem;
+        margin: auto;
+        background-color: #7FDBD4;
+    }
+    .social img{
+        height: 1.4rem;
+    }
+    .bottom-box{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    footer h5{
+        font-size: 0.6rem;
+        margin-left: 0%;
+    }
+    .disclaimer{
+        display: flex;
+        justify-content: space-around;
+        text-align: left;
+        width: 18.88rem;
+        margin-left: 0%;
+    }
+    .disclaimer p{
+        font-size: 0.5rem;
+        width: 12.2rem;
+        margin-left: 0%;
+    }
     footer button{
         display: block;
         font-size: 0.75rem;
-        margin-left: 2.9rem;
+        margin-left: 2.9rem; 
         border: none;
         color: #707070;
         background-color: #333333;
         padding: 0rem 1rem;
         height: 1.56rem;
+        width: 68px;
     }
 }
