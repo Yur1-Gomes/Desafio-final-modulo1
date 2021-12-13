@@ -122,22 +122,30 @@ button{
     display: none;
 }
 @media(max-width:1440px){
+    .top-bar h3{
+        margin-left: 6.8rem;
+    }
     .blue-box{
         background-position: 64%;
+    }
+    .blue-box h1{
+        font-size: 4rem;
+        margin-left: 6.8rem;
     }
     .blue-box h2{
         font-size: 1.6rem;
         width: 14rem;
+        margin-left: 6.8rem;
     }
     .container-img{
-        margin-left: 3.5rem;
+        margin-left: 6.8rem;
     }
     .container-img img{
-        height: 18.75rem;
-        width: 18.75rem;
+        height: 17rem;
+        width: 17rem;
     }
     .social{
-        margin-left: 4.4rem;
+        margin-left: 7.7rem;
     }
     .social img{
         margin-left: 1rem;
